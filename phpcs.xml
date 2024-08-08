@@ -19,11 +19,7 @@
         </properties>
     </rule>
     <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
-    <rule ref="Generic.Formatting.MultipleStatementAlignment">
-        <properties>
-            <property name="ignoreMultiLine" value="true"/>
-        </properties>
-    </rule>
+    <rule ref="Generic.Formatting.MultipleStatementAlignment"/>
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
     <rule ref="Generic.Metrics.CyclomaticComplexity"/>
     <rule ref="Generic.Metrics.NestingLevel">
